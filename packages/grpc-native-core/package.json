@@ -1,6 +1,6 @@
 {
-  "name": "grpc",
-  "version": "1.9.1",
+  "name": "nf-grpc",
+  "version": "1.9.1-nf.0",
   "author": "Google Inc.",
   "description": "gRPC Library for Node",
   "homepage": "https://grpc.io/",
@@ -15,6 +15,9 @@
       "email": "mlumish@google.com"
     }
   ],
+  "publishConfig": {
+    "registry": "http://artifacts.netflix.com/api/npm/npm-netflix"
+  },
   "directories": {
     "lib": "src"
   },
